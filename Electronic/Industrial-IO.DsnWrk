@@ -1,0 +1,8 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=Industrial-IO\Industrial-IO.PrjPcb
+[Project2]
+ProjectPath=Relay Output\Relay Output.PrjPcb
+[Project3]
+ProjectPath=Power\Power.PrjPcb

@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=-VS Pin=P1-1
+Removed Pin From Net: NetName=+VS Pin=P1-2
+Removed Pin From Net: NetName=+3.3 Pin=P1-3
+Removed Pin From Net: NetName=RS485_N Pin=P1-4
+Removed Pin From Net: NetName=RS485_P Pin=P1-5
+Change Component DesignItemId : Designator=P1 Old DesignItemId=Header 6 New DesignItemId=Header 2X5
+Change Component Footprint: Designator=P1 Old Footprint=Header 6 New Footprint=HDR 2X5 M ST 2.54
+Change Component Comment : Designator=P1 Old Comment=Header 6 New Comment=Header 2X5
+Added Component: Designator=U?(SOT23)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "http://www.chila.ir"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DIST#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "TL431_SOT23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "TL431"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+VS Pin=P1-1
+Added Pin To Net: NetName=+ISO Pin=P1-2
+Added Pin To Net: NetName=-VS Pin=P1-3
+Added Pin To Net: NetName=-ISO Pin=P1-4
+Added Pin To Net: NetName=+3.3 Pin=P1-5
+Added Pin To Net: NetName=GND Pin=P1-8
+Added Pin To Net: NetName=RS485_P Pin=P1-9
+Added Pin To Net: NetName=RS485_N Pin=P1-10
+Added Pin To Net: NetName=GND Pin=U?-3
+Added Pin To Net: NetName=Battery Measurement Pin=P1-7
+Added Net: Name=Battery Measurement
+Added Pin To Net: NetName=NetU?_1 Pin=U?-1
+Added Pin To Net: NetName=NetU?_1 Pin=U?-2
+Added Net: Name=NetU?_1
+Change Class Name : Old Net Name=CPU New Net Name=Microcontroller
+Change Class Name : Old Net Name=Digital Outputs New Net Name=Digital Output
+Added Member To Class: ClassName=Indicator Member=Component IC4 SN74HC595D
+Added Member To Class: ClassName=Digital Input Member=Component OP3 TLP281-4
+Added Member To Class: ClassName=Microcontroller Member=Component U? TL431

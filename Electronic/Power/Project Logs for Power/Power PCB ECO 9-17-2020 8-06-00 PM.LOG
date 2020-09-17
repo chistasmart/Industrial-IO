@@ -1,0 +1,8 @@
+Added Pin To Net: NetName=NetC19_1 Pin=Q1-2
+Added Pin To Net: NetName=NetC22_1 Pin=Q2-2
+Added Pin To Net: NetName=NetC19_1 Pin=Q3-2
+Added Pin To Net: NetName=NetC22_1 Pin=Q4-2
+Change Net Name : Old Net Name=NetC19_1 New Net Name=+12_battery
+Change Net Name : Old Net Name=NetC22_1 New Net Name=-12_battery
+Added Pin To Net: NetName=cpu_cammand Pin=Q7-1
+Added Net: Name=cpu_cammand
